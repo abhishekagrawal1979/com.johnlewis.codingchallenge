@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="018a0f83-f345-482f-af40-ceabc11608b5" name="Default Changelist" comment="" />
+    <list default="true" id="018a0f83-f345-482f-af40-ceabc11608b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/johnlewis/codingchallenge/FirstChallengeController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/johnlewis/codingchallenge/FirstChallengeController.kt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -39,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/johnlewis/codingchallenge/FirstChallengeController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="37" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#40#270#0" expanded="true" />
               </folding>
@@ -97,6 +101,9 @@
       <find>println</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -115,6 +122,7 @@
     <option name="width" value="1325" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -177,7 +185,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552692253043" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552692670788" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -257,7 +265,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552412461205</updated>
-      <workItem from="1552412465939" duration="24348000" />
+      <workItem from="1552412465939" duration="24680000" />
     </task>
     <servers />
   </component>
@@ -267,7 +275,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24348000" />
+    <option name="totallyTimeSpent" value="24680000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -371,8 +379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/johnlewis/codingchallenge/FirstChallengeController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="37" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#40#270#0" expanded="true" />
           </folding>
