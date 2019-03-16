@@ -1,4 +1,4 @@
-package com.johnlewis.codingchallenge
+package com.johnlewis.codingchallenge.FirstChallenge
 
 import java.math.BigInteger
 
