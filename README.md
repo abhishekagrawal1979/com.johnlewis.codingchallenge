@@ -1,6 +1,8 @@
 # com.johnlewis.codingchallenge
 Code challenge from John Lewis: https://docs.google.com/document/d/1ON6HgsZzBPYj5dqLH54PwUv495STuSEcK3C-b5iiIxY/edit#heading=h.j8g524gge85p
 
+Steps to run the app on local machine.
+
 Clone the repository https://github.com/abhishekagrawal1979/com.johnlewis.codingchallenge.git
 
 open the terminal from the directory 
