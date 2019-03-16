@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="018a0f83-f345-482f-af40-ceabc11608b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurementTests.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/johnlewis/codingchallenge/CodingChallengeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/johnlewis/codingchallenge/CodingChallengeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurement$TimeValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/johnlewis/codingchallenge/TimeMeasurementControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/johnlewis/codingchallenge/CodingChallengeController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/johnlewis/codingchallenge/CodingChallengeController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurement.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurement.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurementTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurementTests.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,6 +18,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -49,10 +52,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurementTests.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="60">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#54#255#0" expanded="true" />
+                <element signature="e#54#289#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,8 +73,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurement.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="90">
+              <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+              <folding>
+                <element signature="n#!!block;n#populateArray#0;n#!!block;n#TimeMeasurement#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,7 +205,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552700180375" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552721374739" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -229,26 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TimeMeasurementTests.Should be able to convert seconds into valid set of TimeValues">
-    <configuration name="CodingChallenge [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TimeMeasurementTests.Should be able to convert a list of TimeValue objects into Time string">
     <configuration name="FirstChallengeControllerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JohnLewisCodingChallenge.FirstChallenge.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -270,6 +257,22 @@
       <option name="PACKAGE_NAME" value="com.johnlewis.codingchallenge" />
       <option name="MAIN_CLASS_NAME" value="com.johnlewis.codingchallenge.TimeMeasurementControllerTest" />
       <option name="METHOD_NAME" value="assert that " />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeMeasurementTests.Should be able to convert a list of TimeValue objects into Time string" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JohnLewisCodingChallenge.FirstChallenge.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.johnlewis.codingchallenge.FirstChallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.johnlewis.codingchallenge.FirstChallenge" />
+      <option name="MAIN_CLASS_NAME" value="com.johnlewis.codingchallenge.FirstChallenge.TimeMeasurementTests" />
+      <option name="METHOD_NAME" value="Should be able to convert a list of TimeValue objects into Time string" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -306,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimeMeasurementTests.Should be able to convert a list of TimeValue objects into Time string" />
         <item itemvalue="JUnit.TimeMeasurementTests.Should be able to convert seconds into valid set of TimeValues" />
         <item itemvalue="Kotlin.com.johnlewis.codingchallenge.MainKt" />
         <item itemvalue="JUnit.TimeMeasurementControllerTest.assert that " />
         <item itemvalue="JUnit.FirstChallengeControllerTest.test" />
-        <item itemvalue="Gradle.CodingChallenge [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -324,44 +327,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552412461205</updated>
-      <workItem from="1552412465939" duration="31219000" />
+      <workItem from="1552412465939" duration="34889000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstChallengeControllerTest_test - 2019.03.14 at 12h 37m 28s.xml">
-      <configuration name="FirstChallengeControllerTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstChallengeControllerTest_assert_that_ - 2019.03.16 at 00h 30m 14s.xml">
-      <configuration name="FirstChallengeControllerTest.assert that " configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstChallengeControllerTest_assert_that_ - 2019.03.16 at 00h 30m 50s.xml">
-      <configuration name="FirstChallengeControllerTest.assert that " configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstChallengeControllerTest_assert_that_ - 2019.03.16 at 00h 31m 33s.xml">
-      <configuration name="FirstChallengeControllerTest.assert that " configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TimeMeasurementControllerTest_assert_that_ - 2019.03.16 at 00h 42m 09s.xml">
-      <configuration name="TimeMeasurementControllerTest.assert that " configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TimeMeasurementControllerTest_assert_that_ - 2019.03.16 at 00h 42m 54s.xml">
-      <configuration name="TimeMeasurementControllerTest.assert that " configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_seconds_into_valid_set_of_TimeValues - 2019.03.16 at 01h 31m 05s.xml">
+    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_seconds_into_valid_set_of_TimeValues - 2019.03.16 at 06h 59m 16s.xml">
       <configuration name="TimeMeasurementTests.Should be able to convert seconds into valid set of TimeValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_seconds_into_valid_set_of_TimeValues - 2019.03.16 at 01h 31m 31s.xml">
+    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_seconds_into_valid_set_of_TimeValues - 2019.03.16 at 06h 59m 50s.xml">
       <configuration name="TimeMeasurementTests.Should be able to convert seconds into valid set of TimeValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_seconds_into_valid_set_of_TimeValues - 2019.03.16 at 01h 32m 15s.xml">
+    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_seconds_into_valid_set_of_TimeValues - 2019.03.16 at 07h 00m 22s.xml">
       <configuration name="TimeMeasurementTests.Should be able to convert seconds into valid set of TimeValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_seconds_into_valid_set_of_TimeValues - 2019.03.16 at 01h 34m 42s.xml">
-      <configuration name="TimeMeasurementTests.Should be able to convert seconds into valid set of TimeValues" configurationId="JUnit" />
+    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_a_list_of_TimeValue_objects_into_Time_string - 2019.03.16 at 07h 18m 00s.xml">
+      <configuration name="TimeMeasurementTests.Should be able to convert a list of TimeValue objects into Time string" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_a_list_of_TimeValue_objects_into_Time_string - 2019.03.16 at 07h 18m 44s.xml">
+      <configuration name="TimeMeasurementTests.Should be able to convert a list of TimeValue objects into Time string" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_a_list_of_TimeValue_objects_into_Time_string - 2019.03.16 at 07h 19m 12s.xml">
+      <configuration name="TimeMeasurementTests.Should be able to convert a list of TimeValue objects into Time string" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_a_list_of_TimeValue_objects_into_Time_string - 2019.03.16 at 07h 19m 27s.xml">
+      <configuration name="TimeMeasurementTests.Should be able to convert a list of TimeValue objects into Time string" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_a_list_of_TimeValue_objects_into_Time_string - 2019.03.16 at 07h 21m 08s.xml">
+      <configuration name="TimeMeasurementTests.Should be able to convert a list of TimeValue objects into Time string" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_a_list_of_TimeValue_objects_into_Time_string - 2019.03.16 at 07h 22m 50s.xml">
+      <configuration name="TimeMeasurementTests.Should be able to convert a list of TimeValue objects into Time string" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeMeasurementTests_Should_be_able_to_convert_a_list_of_TimeValue_objects_into_Time_string - 2019.03.16 at 07h 26m 58s.xml">
+      <configuration name="TimeMeasurementTests.Should be able to convert a list of TimeValue objects into Time string" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31219000" />
+    <option name="totallyTimeSpent" value="34889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,17 +478,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurement.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="90">
+          <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+          <folding>
+            <element signature="n#!!block;n#populateArray#0;n#!!block;n#TimeMeasurement#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurementTests.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="60">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#54#255#0" expanded="true" />
+            <element signature="e#54#289#0" expanded="true" />
           </folding>
         </state>
       </provider>

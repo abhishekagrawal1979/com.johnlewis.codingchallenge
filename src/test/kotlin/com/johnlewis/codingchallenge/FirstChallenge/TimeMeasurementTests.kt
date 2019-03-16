@@ -5,42 +5,40 @@ import junit.framework.Assert.assertEquals
 import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 import java.math.BigInteger
+import java.util.Collections.list
 
 class TimeMeasurementTests {
 
-
+    var objTimeMeasurement = TimeMeasurement()
     var expectedlistTimeValue = mutableListOf<TimeValue>()
-    var actuallistTimeValue = listOf<TimeValue>()
 
-
-    @Disabled
     @Test
     fun `Should be able to convert seconds into valid set of TimeValues`() {
 
-        var objTimeValue1 = TimeValue()
-        var objTimeValue2 = TimeValue()
-        var objTimeValue3 = TimeValue()
-        var objTimeMeasurement = TimeMeasurement()
+        expectedlistTimeValue.add(0, TimeValue(BigInteger.valueOf(12), "Hours"))
+        expectedlistTimeValue.add(1, TimeValue(BigInteger.valueOf(1), "Minute"))
 
-        objTimeValue1.Amount = BigInteger.valueOf(12)
-        objTimeValue1.Unit = Hours.PluralUnitName
-        expectedlistTimeValue .add(objTimeValue1)
+        assertEquals(expectedlistTimeValue, objTimeMeasurement.populateArray(BigInteger.valueOf(43260)))
 
-        objTimeValue2.Amount = BigInteger.valueOf(1)
-        objTimeValue2.Unit = Minutes.SingularUnitName
-        expectedlistTimeValue .add(objTimeValue2)
+        expectedlistTimeValue.add(2, TimeValue(BigInteger.valueOf(1), "Second"))
 
-        actuallistTimeValue=objTimeMeasurement.populateArray(BigInteger.valueOf(43260))
+        assertEquals(expectedlistTimeValue, objTimeMeasurement.populateArray(BigInteger.valueOf(43261)))
 
-        assertEquals(expectedlistTimeValue, actuallistTimeValue )
+    }
 
-        objTimeValue3.Amount = BigInteger.valueOf(1)
-        objTimeValue3.Unit = Seconds.SingularUnitName
-        expectedlistTimeValue .add(objTimeValue3)
+    @Test
+    fun `Should be able to convert a list of TimeValue objects into Time string`() {
 
-        actuallistTimeValue=objTimeMeasurement.populateArray(BigInteger.valueOf(43261))
+        assertEquals(
+            "12 Hours and 1 Minute",
+            objTimeMeasurement.formatTimeUnitList(objTimeMeasurement.populateArray(BigInteger.valueOf(43260)))
+        )
+        assertEquals(
+            "12 Hours, 1 Minute and 1 Second",
+            objTimeMeasurement.formatTimeUnitList(objTimeMeasurement.populateArray(BigInteger.valueOf(43261)))
+        )
 
-        assertEquals(expectedlistTimeValue, actuallistTimeValue )
+
 
     }
 
