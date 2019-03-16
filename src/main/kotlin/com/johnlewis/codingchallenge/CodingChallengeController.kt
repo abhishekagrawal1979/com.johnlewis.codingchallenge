@@ -2,6 +2,7 @@ package com.johnlewis.codingchallenge
 
 
 import com.johnlewis.codingchallenge.FirstChallenge.TimeMeasurement
+import com.johnlewis.codingchallenge.FirstChallenge.TimeValue
 import jdk.nashorn.internal.runtime.RewriteException.populateArray
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.web.bind.annotation.GetMapping
@@ -24,7 +25,7 @@ class CodingChallengeController {
 
         var objMeasurement = TimeMeasurement()
 
-        var finalTimeValueList: List<TimeMeasurement.TimeValue> =
+        var finalTimeValueList: List<TimeValue> =
             objMeasurement.populateArray(BigInteger(numberOfSeconds))
         return objMeasurement.formatTimeUnitList(finalTimeValueList)
     }

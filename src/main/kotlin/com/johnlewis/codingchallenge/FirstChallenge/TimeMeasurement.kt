@@ -4,7 +4,7 @@ import java.math.BigInteger
 class TimeMeasurement {
 
 
-    public fun populateArray(numberOfSeconds: BigInteger): List<TimeValue> {
+    internal fun populateArray(numberOfSeconds: BigInteger): List<TimeValue> {
 
         var timeUnitList = mutableListOf<TimeValue>()
         var remainingSeconds: BigInteger = numberOfSeconds
@@ -49,13 +49,14 @@ class TimeMeasurement {
         return outputString
     }
 
-    data class TimeValue(
-
-        var Amount: BigInteger = BigInteger.ZERO,
-        var Unit: String = ""
-
-    )
 
 }
+
+data class TimeValue(
+
+    var Amount: BigInteger = BigInteger.ZERO,
+    var Unit: String = ""
+
+)
 
 
