@@ -15,11 +15,7 @@ Run the below commands
   
   This would start the application on port 8080
   
-  In the browser open the below link
-  
-  http://localhost:8080/
-  
-  Now append the number of seconds which you need to convert into the string. For example 
+  In the browser open the below link http://localhost:8080/ followed by the number of seconds which you need to convert into the string. For example 
   
     http://localhost:8080/12973248374
   
