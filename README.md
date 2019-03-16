@@ -15,6 +15,9 @@ Run the below commands
   
   http://localhost:8080/
   
+  Now append the number of seconds which you need to convert into the string. For example 
+  
+    http://localhost:8080/12973248374
   
   
 
