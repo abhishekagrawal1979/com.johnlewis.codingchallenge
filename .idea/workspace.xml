@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="018a0f83-f345-482f-af40-ceabc11608b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurementTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurementTests.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,10 +51,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurementTests.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="270">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
-                <element signature="e#54#289#0" expanded="true" />
+                <element signature="e#54#324#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -205,7 +204,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552721374739" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552740101758" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -235,17 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TimeMeasurementTests.Should be able to convert a list of TimeValue objects into Time string">
-    <configuration name="FirstChallengeControllerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JohnLewisCodingChallenge.FirstChallenge.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstChallengeControllerTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TimeMeasurementTests">
     <configuration name="TimeMeasurementControllerTest.assert that " type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JohnLewisCodingChallenge.FirstChallenge.test" />
       <extension name="coverage">
@@ -258,6 +247,21 @@
       <option name="MAIN_CLASS_NAME" value="com.johnlewis.codingchallenge.TimeMeasurementControllerTest" />
       <option name="METHOD_NAME" value="assert that " />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeMeasurementTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JohnLewisCodingChallenge.FirstChallenge.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.johnlewis.codingchallenge.FirstChallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.johnlewis.codingchallenge.FirstChallenge" />
+      <option name="MAIN_CLASS_NAME" value="com.johnlewis.codingchallenge.FirstChallenge.TimeMeasurementTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -309,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimeMeasurementTests" />
         <item itemvalue="JUnit.TimeMeasurementTests.Should be able to convert a list of TimeValue objects into Time string" />
         <item itemvalue="JUnit.TimeMeasurementTests.Should be able to convert seconds into valid set of TimeValues" />
         <item itemvalue="Kotlin.com.johnlewis.codingchallenge.MainKt" />
         <item itemvalue="JUnit.TimeMeasurementControllerTest.assert that " />
-        <item itemvalue="JUnit.FirstChallengeControllerTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +331,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552412461205</updated>
-      <workItem from="1552412465939" duration="34889000" />
+      <workItem from="1552412465939" duration="35428000" />
     </task>
     <servers />
   </component>
@@ -364,7 +368,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34889000" />
+    <option name="totallyTimeSpent" value="35428000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,10 +492,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/johnlewis/codingchallenge/FirstChallenge/TimeMeasurementTests.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="270">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <element signature="e#54#289#0" expanded="true" />
+            <element signature="e#54#324#0" expanded="true" />
           </folding>
         </state>
       </provider>

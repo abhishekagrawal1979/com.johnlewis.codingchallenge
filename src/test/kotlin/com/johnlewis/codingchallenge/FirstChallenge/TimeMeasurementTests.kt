@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 import java.math.BigInteger
 import java.util.Collections.list
+import kotlin.test.assertNotEquals
 
 class TimeMeasurementTests {
 
@@ -23,7 +24,6 @@ class TimeMeasurementTests {
         expectedlistTimeValue.add(2, TimeValue(BigInteger.valueOf(1), "Second"))
 
         assertEquals(expectedlistTimeValue, objTimeMeasurement.populateArray(BigInteger.valueOf(43261)))
-
     }
 
     @Test
@@ -37,9 +37,18 @@ class TimeMeasurementTests {
             "12 Hours, 1 Minute and 1 Second",
             objTimeMeasurement.formatTimeUnitList(objTimeMeasurement.populateArray(BigInteger.valueOf(43261)))
         )
-
-
-
+        assertEquals(
+            "None",
+            objTimeMeasurement.formatTimeUnitList(objTimeMeasurement.populateArray(BigInteger.valueOf(0)))
+        )
     }
 
+    @Test
+    fun `should not be equal to incorrect Time string`(){
+        assertNotEquals(
+            "12 Hours, 1 Minute and 1 Second",
+            objTimeMeasurement.formatTimeUnitList(objTimeMeasurement.populateArray(BigInteger.valueOf(60)))
+        )
+
+    }
 }
