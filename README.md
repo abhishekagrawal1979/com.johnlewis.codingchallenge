@@ -8,7 +8,9 @@ Clone the repository https://github.com/abhishekagrawal1979/com.johnlewis.coding
 open the terminal from the directory 
 
 Run the below commands
+
   ./gradlew build
+
   ./gradlew bootRun
   
   This would start the application on port 8080
